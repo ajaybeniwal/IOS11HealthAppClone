@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BADF1FA1F6D73F500BC4E76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BADF1F91F6D73F500BC4E76 /* AppDelegate.swift */; };
+		0BADF1FC1F6D73F500BC4E76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BADF1FB1F6D73F500BC4E76 /* ViewController.swift */; };
+		0BADF2011F6D73F500BC4E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BADF2001F6D73F500BC4E76 /* Assets.xcassets */; };
+		0BADF2041F6D73F500BC4E76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BADF2021F6D73F500BC4E76 /* LaunchScreen.storyboard */; };
+		0BADF20F1F6D73F500BC4E76 /* IOS11HealthAppCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BADF20E1F6D73F500BC4E76 /* IOS11HealthAppCloneTests.swift */; };
+		0BADF21A1F6D73F500BC4E76 /* IOS11HealthAppCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BADF2191F6D73F500BC4E76 /* IOS11HealthAppCloneUITests.swift */; };
+		165F2C484D93098800C32A54 /* Pods_IOS11HealthAppClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D8BF342ADFF55FCE0A8067 /* Pods_IOS11HealthAppClone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BADF20B1F6D73F500BC4E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BADF1EE1F6D73F500BC4E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BADF1F51F6D73F500BC4E76;
+			remoteInfo = IOS11HealthAppClone;
+		};
+		0BADF2161F6D73F500BC4E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BADF1EE1F6D73F500BC4E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BADF1F51F6D73F500BC4E76;
+			remoteInfo = IOS11HealthAppClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BADF1F61F6D73F500BC4E76 /* IOS11HealthAppClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS11HealthAppClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BADF1F91F6D73F500BC4E76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BADF1FB1F6D73F500BC4E76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BADF2001F6D73F500BC4E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BADF2031F6D73F500BC4E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BADF2051F6D73F500BC4E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BADF20A1F6D73F500BC4E76 /* IOS11HealthAppCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS11HealthAppCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BADF20E1F6D73F500BC4E76 /* IOS11HealthAppCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS11HealthAppCloneTests.swift; sourceTree = "<group>"; };
+		0BADF2101F6D73F500BC4E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BADF2151F6D73F500BC4E76 /* IOS11HealthAppCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS11HealthAppCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BADF2191F6D73F500BC4E76 /* IOS11HealthAppCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS11HealthAppCloneUITests.swift; sourceTree = "<group>"; };
+		0BADF21B1F6D73F500BC4E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D8BF342ADFF55FCE0A8067 /* Pods_IOS11HealthAppClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS11HealthAppClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC7765AB81ABF950547B4C1 /* Pods-IOS11HealthAppClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS11HealthAppClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOS11HealthAppClone/Pods-IOS11HealthAppClone.debug.xcconfig"; sourceTree = "<group>"; };
+		F66842ABDDD5E5E72E721CB3 /* Pods-IOS11HealthAppClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS11HealthAppClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOS11HealthAppClone/Pods-IOS11HealthAppClone.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BADF1F31F6D73F500BC4E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165F2C484D93098800C32A54 /* Pods_IOS11HealthAppClone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BADF2071F6D73F500BC4E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BADF2121F6D73F500BC4E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BADF1ED1F6D73F500BC4E76 = {
+			isa = PBXGroup;
+			children = (
+				0BADF1F81F6D73F500BC4E76 /* IOS11HealthAppClone */,
+				0BADF20D1F6D73F500BC4E76 /* IOS11HealthAppCloneTests */,
+				0BADF2181F6D73F500BC4E76 /* IOS11HealthAppCloneUITests */,
+				0BADF1F71F6D73F500BC4E76 /* Products */,
+				ADB1821F35766F209002C6F7 /* Pods */,
+				332A6606D71C393563F49A93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0BADF1F71F6D73F500BC4E76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BADF1F61F6D73F500BC4E76 /* IOS11HealthAppClone.app */,
+				0BADF20A1F6D73F500BC4E76 /* IOS11HealthAppCloneTests.xctest */,
+				0BADF2151F6D73F500BC4E76 /* IOS11HealthAppCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BADF1F81F6D73F500BC4E76 /* IOS11HealthAppClone */ = {
+			isa = PBXGroup;
+			children = (
+				0BADF1F91F6D73F500BC4E76 /* AppDelegate.swift */,
+				0BADF1FB1F6D73F500BC4E76 /* ViewController.swift */,
+				0BADF2001F6D73F500BC4E76 /* Assets.xcassets */,
+				0BADF2021F6D73F500BC4E76 /* LaunchScreen.storyboard */,
+				0BADF2051F6D73F500BC4E76 /* Info.plist */,
+			);
+			path = IOS11HealthAppClone;
+			sourceTree = "<group>";
+		};
+		0BADF20D1F6D73F500BC4E76 /* IOS11HealthAppCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BADF20E1F6D73F500BC4E76 /* IOS11HealthAppCloneTests.swift */,
+				0BADF2101F6D73F500BC4E76 /* Info.plist */,
+			);
+			path = IOS11HealthAppCloneTests;
+			sourceTree = "<group>";
+		};
+		0BADF2181F6D73F500BC4E76 /* IOS11HealthAppCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0BADF2191F6D73F500BC4E76 /* IOS11HealthAppCloneUITests.swift */,
+				0BADF21B1F6D73F500BC4E76 /* Info.plist */,
+			);
+			path = IOS11HealthAppCloneUITests;
+			sourceTree = "<group>";
+		};
+		332A6606D71C393563F49A93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94D8BF342ADFF55FCE0A8067 /* Pods_IOS11HealthAppClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADB1821F35766F209002C6F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7765AB81ABF950547B4C1 /* Pods-IOS11HealthAppClone.debug.xcconfig */,
+				F66842ABDDD5E5E72E721CB3 /* Pods-IOS11HealthAppClone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BADF1F51F6D73F500BC4E76 /* IOS11HealthAppClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BADF21E1F6D73F500BC4E76 /* Build configuration list for PBXNativeTarget "IOS11HealthAppClone" */;
+			buildPhases = (
+				52171333FE41CDDD5DB15470 /* [CP] Check Pods Manifest.lock */,
+				0BADF1F21F6D73F500BC4E76 /* Sources */,
+				0BADF1F31F6D73F500BC4E76 /* Frameworks */,
+				0BADF1F41F6D73F500BC4E76 /* Resources */,
+				D31A6CFED6B69A3434A6F87B /* [CP] Embed Pods Frameworks */,
+				522ADCF3CAC7756872BD6DD1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOS11HealthAppClone;
+			productName = IOS11HealthAppClone;
+			productReference = 0BADF1F61F6D73F500BC4E76 /* IOS11HealthAppClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BADF2091F6D73F500BC4E76 /* IOS11HealthAppCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BADF2211F6D73F500BC4E76 /* Build configuration list for PBXNativeTarget "IOS11HealthAppCloneTests" */;
+			buildPhases = (
+				0BADF2061F6D73F500BC4E76 /* Sources */,
+				0BADF2071F6D73F500BC4E76 /* Frameworks */,
+				0BADF2081F6D73F500BC4E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BADF20C1F6D73F500BC4E76 /* PBXTargetDependency */,
+			);
+			name = IOS11HealthAppCloneTests;
+			productName = IOS11HealthAppCloneTests;
+			productReference = 0BADF20A1F6D73F500BC4E76 /* IOS11HealthAppCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BADF2141F6D73F500BC4E76 /* IOS11HealthAppCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BADF2241F6D73F500BC4E76 /* Build configuration list for PBXNativeTarget "IOS11HealthAppCloneUITests" */;
+			buildPhases = (
+				0BADF2111F6D73F500BC4E76 /* Sources */,
+				0BADF2121F6D73F500BC4E76 /* Frameworks */,
+				0BADF2131F6D73F500BC4E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BADF2171F6D73F500BC4E76 /* PBXTargetDependency */,
+			);
+			name = IOS11HealthAppCloneUITests;
+			productName = IOS11HealthAppCloneUITests;
+			productReference = 0BADF2151F6D73F500BC4E76 /* IOS11HealthAppCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BADF1EE1F6D73F500BC4E76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ajay Singh";
+				TargetAttributes = {
+					0BADF1F51F6D73F500BC4E76 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
+					};
+					0BADF2091F6D73F500BC4E76 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0BADF1F51F6D73F500BC4E76;
+					};
+					0BADF2141F6D73F500BC4E76 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0BADF1F51F6D73F500BC4E76;
+					};
+				};
+			};
+			buildConfigurationList = 0BADF1F11F6D73F500BC4E76 /* Build configuration list for PBXProject "IOS11HealthAppClone" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BADF1ED1F6D73F500BC4E76;
+			productRefGroup = 0BADF1F71F6D73F500BC4E76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BADF1F51F6D73F500BC4E76 /* IOS11HealthAppClone */,
+				0BADF2091F6D73F500BC4E76 /* IOS11HealthAppCloneTests */,
+				0BADF2141F6D73F500BC4E76 /* IOS11HealthAppCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BADF1F41F6D73F500BC4E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BADF2041F6D73F500BC4E76 /* LaunchScreen.storyboard in Resources */,
+				0BADF2011F6D73F500BC4E76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BADF2081F6D73F500BC4E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BADF2131F6D73F500BC4E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52171333FE41CDDD5DB15470 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOS11HealthAppClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		522ADCF3CAC7756872BD6DD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOS11HealthAppClone/Pods-IOS11HealthAppClone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D31A6CFED6B69A3434A6F87B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IOS11HealthAppClone/Pods-IOS11HealthAppClone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOS11HealthAppClone/Pods-IOS11HealthAppClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BADF1F21F6D73F500BC4E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BADF1FC1F6D73F500BC4E76 /* ViewController.swift in Sources */,
+				0BADF1FA1F6D73F500BC4E76 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BADF2061F6D73F500BC4E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BADF20F1F6D73F500BC4E76 /* IOS11HealthAppCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BADF2111F6D73F500BC4E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BADF21A1F6D73F500BC4E76 /* IOS11HealthAppCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BADF20C1F6D73F500BC4E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BADF1F51F6D73F500BC4E76 /* IOS11HealthAppClone */;
+			targetProxy = 0BADF20B1F6D73F500BC4E76 /* PBXContainerItemProxy */;
+		};
+		0BADF2171F6D73F500BC4E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BADF1F51F6D73F500BC4E76 /* IOS11HealthAppClone */;
+			targetProxy = 0BADF2161F6D73F500BC4E76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BADF2021F6D73F500BC4E76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BADF2031F6D73F500BC4E76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BADF21C1F6D73F500BC4E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BADF21D1F6D73F500BC4E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BADF21F1F6D73F500BC4E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC7765AB81ABF950547B4C1 /* Pods-IOS11HealthAppClone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = IOS11HealthAppClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.IOS11HealthAppClone.IOS11HealthAppClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BADF2201F6D73F500BC4E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66842ABDDD5E5E72E721CB3 /* Pods-IOS11HealthAppClone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = IOS11HealthAppClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.IOS11HealthAppClone.IOS11HealthAppClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0BADF2221F6D73F500BC4E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQY5592JZC;
+				INFOPLIST_FILE = IOS11HealthAppCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.IOS11HealthAppClone.IOS11HealthAppCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS11HealthAppClone.app/IOS11HealthAppClone";
+			};
+			name = Debug;
+		};
+		0BADF2231F6D73F500BC4E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQY5592JZC;
+				INFOPLIST_FILE = IOS11HealthAppCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.IOS11HealthAppClone.IOS11HealthAppCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS11HealthAppClone.app/IOS11HealthAppClone";
+			};
+			name = Release;
+		};
+		0BADF2251F6D73F500BC4E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQY5592JZC;
+				INFOPLIST_FILE = IOS11HealthAppCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.IOS11HealthAppClone.IOS11HealthAppCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IOS11HealthAppClone;
+			};
+			name = Debug;
+		};
+		0BADF2261F6D73F500BC4E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQY5592JZC;
+				INFOPLIST_FILE = IOS11HealthAppCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.IOS11HealthAppClone.IOS11HealthAppCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IOS11HealthAppClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BADF1F11F6D73F500BC4E76 /* Build configuration list for PBXProject "IOS11HealthAppClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BADF21C1F6D73F500BC4E76 /* Debug */,
+				0BADF21D1F6D73F500BC4E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BADF21E1F6D73F500BC4E76 /* Build configuration list for PBXNativeTarget "IOS11HealthAppClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BADF21F1F6D73F500BC4E76 /* Debug */,
+				0BADF2201F6D73F500BC4E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BADF2211F6D73F500BC4E76 /* Build configuration list for PBXNativeTarget "IOS11HealthAppCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BADF2221F6D73F500BC4E76 /* Debug */,
+				0BADF2231F6D73F500BC4E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BADF2241F6D73F500BC4E76 /* Build configuration list for PBXNativeTarget "IOS11HealthAppCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BADF2251F6D73F500BC4E76 /* Debug */,
+				0BADF2261F6D73F500BC4E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BADF1EE1F6D73F500BC4E76 /* Project object */;
+}
