@@ -15,7 +15,9 @@ class HealthDataViewController: UIViewController,UISearchBarDelegate,UISearchCon
         return ListAdapter(updater: ListAdapterUpdater(), viewController: self)
     }()
     let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
-    let data: [Any] = [GridItem(color: UIColor(red: 237/255.0, green: 73/255.0, blue: 86/255.0, alpha: 1), itemCount: 4)]
+    let data: [Any] = [
+        GridItem(color: UIColor(red: 237/255.0, green: 73/255.0, blue: 86/255.0, alpha: 1), itemCount: 4)
+    ]
     /* Search Bar delegate methods*/
     func updateSearchResults(for searchController: UISearchController) {
         print("hello")
