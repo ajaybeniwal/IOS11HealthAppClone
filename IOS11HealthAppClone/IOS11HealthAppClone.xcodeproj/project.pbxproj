@@ -23,6 +23,8 @@
 		0BE8301F1F6E647B008CFEBB /* HealthDataLineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8301E1F6E647B008CFEBB /* HealthDataLineItem.swift */; };
 		0BE830211F6EBE98008CFEBB /* IconListSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE830201F6EBE98008CFEBB /* IconListSectionViewController.swift */; };
 		0BE830231F6EC09F008CFEBB /* IconListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE830221F6EC09F008CFEBB /* IconListCollectionViewCell.swift */; };
+		0BE830291F6ED74B008CFEBB /* MedicalIdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE830281F6ED74B008CFEBB /* MedicalIdViewController.swift */; };
+		0BE8302B1F6EE29B008CFEBB /* MedicalIdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8302A1F6EE29B008CFEBB /* MedicalIdTableViewCell.swift */; };
 		165F2C484D93098800C32A54 /* Pods_IOS11HealthAppClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D8BF342ADFF55FCE0A8067 /* Pods_IOS11HealthAppClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,8 @@
 		0BE8301E1F6E647B008CFEBB /* HealthDataLineItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataLineItem.swift; sourceTree = "<group>"; };
 		0BE830201F6EBE98008CFEBB /* IconListSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconListSectionViewController.swift; sourceTree = "<group>"; };
 		0BE830221F6EC09F008CFEBB /* IconListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconListCollectionViewCell.swift; sourceTree = "<group>"; };
+		0BE830281F6ED74B008CFEBB /* MedicalIdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalIdViewController.swift; sourceTree = "<group>"; };
+		0BE8302A1F6EE29B008CFEBB /* MedicalIdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalIdTableViewCell.swift; sourceTree = "<group>"; };
 		94D8BF342ADFF55FCE0A8067 /* Pods_IOS11HealthAppClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS11HealthAppClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC7765AB81ABF950547B4C1 /* Pods-IOS11HealthAppClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS11HealthAppClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOS11HealthAppClone/Pods-IOS11HealthAppClone.debug.xcconfig"; sourceTree = "<group>"; };
 		F66842ABDDD5E5E72E721CB3 /* Pods-IOS11HealthAppClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS11HealthAppClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOS11HealthAppClone/Pods-IOS11HealthAppClone.release.xcconfig"; sourceTree = "<group>"; };
@@ -184,6 +188,10 @@
 		0BE830061F6D8481008CFEBB /* MedicalId */ = {
 			isa = PBXGroup;
 			children = (
+				0BE830271F6ED71A008CFEBB /* Model */,
+				0BE830261F6ED707008CFEBB /* ViewModel */,
+				0BE830251F6ED6F7008CFEBB /* View */,
+				0BE830241F6ED6EB008CFEBB /* Controller */,
 			);
 			path = MedicalId;
 			sourceTree = "<group>";
@@ -237,6 +245,36 @@
 				0BE830221F6EC09F008CFEBB /* IconListCollectionViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		0BE830241F6ED6EB008CFEBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0BE830281F6ED74B008CFEBB /* MedicalIdViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0BE830251F6ED6F7008CFEBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0BE8302A1F6EE29B008CFEBB /* MedicalIdTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0BE830261F6ED707008CFEBB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0BE830271F6ED71A008CFEBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		332A6606D71C393563F49A93 /* Frameworks */ = {
@@ -462,8 +500,10 @@
 				0BE830161F6E240C008CFEBB /* GridItem.swift in Sources */,
 				0BE830181F6E26D1008CFEBB /* GridSectionViewController.swift in Sources */,
 				0BE830021F6D8402008CFEBB /* TabViewController.swift in Sources */,
+				0BE8302B1F6EE29B008CFEBB /* MedicalIdTableViewCell.swift in Sources */,
 				0BE830141F6E2275008CFEBB /* HealthDataViewController.swift in Sources */,
 				0BADF1FA1F6D73F500BC4E76 /* AppDelegate.swift in Sources */,
+				0BE830291F6ED74B008CFEBB /* MedicalIdViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

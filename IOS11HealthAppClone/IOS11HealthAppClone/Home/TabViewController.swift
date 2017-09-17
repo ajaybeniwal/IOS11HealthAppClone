@@ -16,7 +16,7 @@ class TabViewController: UITabBarController {
         let v1 = addChildVC(childVc: TodayViewController(), title: "Today", iconImage: "Today")
         let v2 = addChildVC(childVc: HealthDataViewController(), title: "Health Data", iconImage: "HealthData")
         let v3 = addChildVC(childVc: TodayViewController(), title: "Sources", iconImage: "Sources")
-        let v4 = addChildVC(childVc: TodayViewController(), title: "MedicalId", iconImage: "MedicalId")
+        let v4 = addChildVC(childVc: MedicalIdViewController(), title: "MedicalID", iconImage: "MedicalId")
         self.viewControllers = [v1,v2,v3,v4]
     }
     
