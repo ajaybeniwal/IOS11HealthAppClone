@@ -16,7 +16,13 @@ class HealthDataViewController: UIViewController,UISearchBarDelegate,UISearchCon
     }()
     let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
     let data: [Any] = [
-        GridItem(color: UIColor(red: 237/255.0, green: 73/255.0, blue: 86/255.0, alpha: 1), itemCount: 4)
+        GridItem(color: UIColor(red: 237/255.0, green: 73/255.0, blue: 86/255.0, alpha: 1), itemCount: 4),
+        HealthDataLineItem(text: "Body Measurements", iconName: "Measurement"),
+        HealthDataLineItem(text: "Health Records", iconName: "HealthRecords"),
+        HealthDataLineItem(text: "Heart", iconName: "Heart"),
+        HealthDataLineItem(text: "Mental Health", iconName: "MentalHealth"),
+        HealthDataLineItem(text: "Results", iconName: "Results"),
+        HealthDataLineItem(text: "Vitals", iconName: "Vitals")
     ]
     /* Search Bar delegate methods*/
     func updateSearchResults(for searchController: UISearchController) {
@@ -57,6 +63,9 @@ class HealthDataViewController: UIViewController,UISearchBarDelegate,UISearchCon
     func listAdapter(_ listAdapter: ListAdapter, sectionControllerFor object: Any) -> ListSectionController {
         if object is GridItem {
             return GridSectionController()
+        }
+        else if object is HealthDataLineItem{
+            return IconListSectionViewController()
         }
         return GridSectionController()
     }

@@ -44,11 +44,11 @@ class HealthGridCollectionViewCell: UICollectionViewCell {
      make.leading.trailing.bottom.top.equalTo(self.contentView)
         }
         
-        self.contentView.addSubview(title)
+        containerView.addSubview(title)
         title.snp.makeConstraints { (make) in
-           make.leading.equalTo(self.contentView).offset(5)
-            make.trailing.equalTo(self.contentView).offset(-5)
-            make.top.equalTo(self.contentView).offset(10)
+           make.leading.equalTo(containerView).offset(5)
+            make.trailing.equalTo(containerView).offset(-5)
+            make.top.equalTo(containerView).offset(10)
         }
         
         self.contentView.addSubview(imageView)
@@ -56,8 +56,8 @@ class HealthGridCollectionViewCell: UICollectionViewCell {
         imageView.snp.makeConstraints { (make) in
             make.height.equalTo(50)
             make.width.equalTo(50)
-            make.bottom.equalTo(self.contentView).offset(-10)
-            make.trailing.equalTo(self.contentView).offset(-10)
+            make.bottom.equalTo(containerView).offset(-10)
+            make.trailing.equalTo(containerView).offset(-10)
         }
     }
     
