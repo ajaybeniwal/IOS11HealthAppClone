@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0BADF1FA1F6D73F500BC4E76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BADF1F91F6D73F500BC4E76 /* AppDelegate.swift */; };
-		0BADF1FC1F6D73F500BC4E76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BADF1FB1F6D73F500BC4E76 /* ViewController.swift */; };
 		0BADF2011F6D73F500BC4E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BADF2001F6D73F500BC4E76 /* Assets.xcassets */; };
 		0BADF2041F6D73F500BC4E76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BADF2021F6D73F500BC4E76 /* LaunchScreen.storyboard */; };
 		0BADF20F1F6D73F500BC4E76 /* IOS11HealthAppCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BADF20E1F6D73F500BC4E76 /* IOS11HealthAppCloneTests.swift */; };
 		0BADF21A1F6D73F500BC4E76 /* IOS11HealthAppCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BADF2191F6D73F500BC4E76 /* IOS11HealthAppCloneUITests.swift */; };
+		0BE830021F6D8402008CFEBB /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE830011F6D8402008CFEBB /* TabViewController.swift */; };
+		0BE830091F6D8681008CFEBB /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE830081F6D8681008CFEBB /* TodayViewController.swift */; };
+		0BE8300B1F6D871C008CFEBB /* BaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8300A1F6D871C008CFEBB /* BaseNavViewController.swift */; };
+		0BE8300E1F6D8C25008CFEBB /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8300D1F6D8C25008CFEBB /* UIColorExtension.swift */; };
+		0BE830141F6E2275008CFEBB /* HealthDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE830131F6E2275008CFEBB /* HealthDataViewController.swift */; };
+		0BE830161F6E240C008CFEBB /* GridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE830151F6E240C008CFEBB /* GridItem.swift */; };
+		0BE830181F6E26D1008CFEBB /* GridSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE830171F6E26D1008CFEBB /* GridSectionViewController.swift */; };
+		0BE8301D1F6E5775008CFEBB /* HealthGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8301C1F6E5775008CFEBB /* HealthGridCollectionViewCell.swift */; };
 		165F2C484D93098800C32A54 /* Pods_IOS11HealthAppClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D8BF342ADFF55FCE0A8067 /* Pods_IOS11HealthAppClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		0BADF1F61F6D73F500BC4E76 /* IOS11HealthAppClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS11HealthAppClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BADF1F91F6D73F500BC4E76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0BADF1FB1F6D73F500BC4E76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0BADF2001F6D73F500BC4E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BADF2031F6D73F500BC4E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BADF2051F6D73F500BC4E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +52,14 @@
 		0BADF2151F6D73F500BC4E76 /* IOS11HealthAppCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS11HealthAppCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BADF2191F6D73F500BC4E76 /* IOS11HealthAppCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS11HealthAppCloneUITests.swift; sourceTree = "<group>"; };
 		0BADF21B1F6D73F500BC4E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BE830011F6D8402008CFEBB /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		0BE830081F6D8681008CFEBB /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		0BE8300A1F6D871C008CFEBB /* BaseNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavViewController.swift; sourceTree = "<group>"; };
+		0BE8300D1F6D8C25008CFEBB /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		0BE830131F6E2275008CFEBB /* HealthDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataViewController.swift; sourceTree = "<group>"; };
+		0BE830151F6E240C008CFEBB /* GridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItem.swift; sourceTree = "<group>"; };
+		0BE830171F6E26D1008CFEBB /* GridSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridSectionViewController.swift; sourceTree = "<group>"; };
+		0BE8301C1F6E5775008CFEBB /* HealthGridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthGridCollectionViewCell.swift; sourceTree = "<group>"; };
 		94D8BF342ADFF55FCE0A8067 /* Pods_IOS11HealthAppClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS11HealthAppClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC7765AB81ABF950547B4C1 /* Pods-IOS11HealthAppClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS11HealthAppClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOS11HealthAppClone/Pods-IOS11HealthAppClone.debug.xcconfig"; sourceTree = "<group>"; };
 		F66842ABDDD5E5E72E721CB3 /* Pods-IOS11HealthAppClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS11HealthAppClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOS11HealthAppClone/Pods-IOS11HealthAppClone.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,8 +116,13 @@
 		0BADF1F81F6D73F500BC4E76 /* IOS11HealthAppClone */ = {
 			isa = PBXGroup;
 			children = (
+				0BE8300C1F6D8C09008CFEBB /* Extension */,
+				0BE830071F6D865D008CFEBB /* Today */,
+				0BE830061F6D8481008CFEBB /* MedicalId */,
+				0BE830051F6D846F008CFEBB /* Sources */,
+				0BE830041F6D843E008CFEBB /* HealthData */,
+				0BE830001F6D83D7008CFEBB /* Home */,
 				0BADF1F91F6D73F500BC4E76 /* AppDelegate.swift */,
-				0BADF1FB1F6D73F500BC4E76 /* ViewController.swift */,
 				0BADF2001F6D73F500BC4E76 /* Assets.xcassets */,
 				0BADF2021F6D73F500BC4E76 /* LaunchScreen.storyboard */,
 				0BADF2051F6D73F500BC4E76 /* Info.plist */,
@@ -127,6 +146,88 @@
 				0BADF21B1F6D73F500BC4E76 /* Info.plist */,
 			);
 			path = IOS11HealthAppCloneUITests;
+			sourceTree = "<group>";
+		};
+		0BE830001F6D83D7008CFEBB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0BE830011F6D8402008CFEBB /* TabViewController.swift */,
+				0BE8300A1F6D871C008CFEBB /* BaseNavViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0BE830041F6D843E008CFEBB /* HealthData */ = {
+			isa = PBXGroup;
+			children = (
+				0BE830191F6E27D2008CFEBB /* View */,
+				0BE830121F6E1BA8008CFEBB /* ViewModel */,
+				0BE830101F6E1B8A008CFEBB /* Controller */,
+				0BE8300F1F6E1B81008CFEBB /* Model */,
+			);
+			path = HealthData;
+			sourceTree = "<group>";
+		};
+		0BE830051F6D846F008CFEBB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0BE830061F6D8481008CFEBB /* MedicalId */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MedicalId;
+			sourceTree = "<group>";
+		};
+		0BE830071F6D865D008CFEBB /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				0BE830081F6D8681008CFEBB /* TodayViewController.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		0BE8300C1F6D8C09008CFEBB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0BE8300D1F6D8C25008CFEBB /* UIColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0BE8300F1F6E1B81008CFEBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0BE830151F6E240C008CFEBB /* GridItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0BE830101F6E1B8A008CFEBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0BE830131F6E2275008CFEBB /* HealthDataViewController.swift */,
+				0BE830171F6E26D1008CFEBB /* GridSectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0BE830121F6E1BA8008CFEBB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0BE830191F6E27D2008CFEBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0BE8301C1F6E5775008CFEBB /* HealthGridCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		332A6606D71C393563F49A93 /* Frameworks */ = {
@@ -342,7 +443,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BADF1FC1F6D73F500BC4E76 /* ViewController.swift in Sources */,
+				0BE8300B1F6D871C008CFEBB /* BaseNavViewController.swift in Sources */,
+				0BE830091F6D8681008CFEBB /* TodayViewController.swift in Sources */,
+				0BE8300E1F6D8C25008CFEBB /* UIColorExtension.swift in Sources */,
+				0BE8301D1F6E5775008CFEBB /* HealthGridCollectionViewCell.swift in Sources */,
+				0BE830161F6E240C008CFEBB /* GridItem.swift in Sources */,
+				0BE830181F6E26D1008CFEBB /* GridSectionViewController.swift in Sources */,
+				0BE830021F6D8402008CFEBB /* TabViewController.swift in Sources */,
+				0BE830141F6E2275008CFEBB /* HealthDataViewController.swift in Sources */,
 				0BADF1FA1F6D73F500BC4E76 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
