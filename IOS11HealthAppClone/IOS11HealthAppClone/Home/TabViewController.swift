@@ -26,6 +26,7 @@ class TabViewController: UITabBarController {
     }
     
     
+    
     private func addChildVC(childVc:UIViewController , title:String,iconImage:String)->UIViewController{
         childVc.tabBarItem = UITabBarItem.init(title: title, image: UIImage(named: iconImage), selectedImage: UIImage(named: iconImage))
         let navigationController = BaseNavViewController(rootViewController: childVc)

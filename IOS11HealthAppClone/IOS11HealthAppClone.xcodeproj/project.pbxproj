@@ -126,6 +126,9 @@
 		0BADF1F81F6D73F500BC4E76 /* IOS11HealthAppClone */ = {
 			isa = PBXGroup;
 			children = (
+				0BE8302E1F6FAD05008CFEBB /* Domain */,
+				0BE8302D1F6FAA30008CFEBB /* ApplicationServices */,
+				0BE8302C1F6FA82D008CFEBB /* Infrastructure */,
 				0BE8300C1F6D8C09008CFEBB /* Extension */,
 				0BE830071F6D865D008CFEBB /* Today */,
 				0BE830061F6D8481008CFEBB /* MedicalId */,
@@ -275,6 +278,27 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0BE8302C1F6FA82D008CFEBB /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		0BE8302D1F6FAA30008CFEBB /* ApplicationServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ApplicationServices;
+			sourceTree = "<group>";
+		};
+		0BE8302E1F6FAD05008CFEBB /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 		332A6606D71C393563F49A93 /* Frameworks */ = {
@@ -467,6 +491,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-IOS11HealthAppClone/Pods-IOS11HealthAppClone-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
 				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
@@ -474,6 +499,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
@@ -663,12 +689,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = AQY5592JZC;
 				INFOPLIST_FILE = IOS11HealthAppClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Test.IOS11HealthAppClone.IOS11HealthAppClone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.equinix.ECPAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "bb9eacb8-9ccf-459f-8834-8a9e77feaeaa";
+				PROVISIONING_PROFILE_SPECIFIER = ECPDevelopmentAI;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -680,12 +708,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = AQY5592JZC;
 				INFOPLIST_FILE = IOS11HealthAppClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Test.IOS11HealthAppClone.IOS11HealthAppClone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.equinix.ECPAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "bb9eacb8-9ccf-459f-8834-8a9e77feaeaa";
+				PROVISIONING_PROFILE_SPECIFIER = ECPDevelopmentAI;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
