@@ -40,9 +40,15 @@ class HealthGridCollectionViewCell: UICollectionViewCell {
     }
     func initializeCollectionViewUI()->Void{
         self.contentView.addSubview(containerView);
-        containerView.snp.makeConstraints { (make) in
+        /*containerView.snp.makeConstraints { (make) in
      make.leading.trailing.bottom.top.equalTo(self.contentView)
-        }
+        }*/
+        containerView.translatesAutoresizingMaskIntoConstraints = false
+        containerView.topAnchor.constraint(equalTo: self.contentView.topAnchor).isActive = true
+        containerView.bottomAnchor.constraint(equalTo: self.contentView.bottomAnchor).isActive = true
+        containerView.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor).isActive = true
+        containerView.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor).isActive = true
+        
         
         containerView.addSubview(title)
         title.snp.makeConstraints { (make) in
